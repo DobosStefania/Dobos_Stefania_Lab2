@@ -18,9 +18,6 @@ namespace Dobos_Stefania_Lab2.Models
         public int? PublisherID { get; set; }
         public Publisher? Publisher { get; set; }
 
-        [Display(Name ="Author")]
-        public virtual int AuthorID { get; set; }
-        [ForeignKey("AuthorID")]
-        public virtual Author Authors { get; set; }
+        
 }
 }
